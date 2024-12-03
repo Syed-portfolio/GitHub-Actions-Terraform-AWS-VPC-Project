@@ -14,8 +14,8 @@ jobs:
       - name: Set up Terraform
         uses: hashicorp/setup-terraform@v1
         with:
-          cli_config_credentials_token: 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
-
+          cli_config_credentials_token: "Add your key"
+          
       - name: Terraform Init
         run: terraform init
 
